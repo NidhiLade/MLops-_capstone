@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# src/train.py
+
 import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
@@ -59,7 +58,6 @@ if __name__ == "__main__":
     parser.add_argument("--n_estimators", type=int, default=100)
     args = parser.parse_args()
     train(args.csv, n_estimators=args.n_estimators)
-=======
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -89,4 +87,3 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 8859dc5e344b69f0a9a0271c1adcf059bea4daf8
